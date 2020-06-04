@@ -12,13 +12,13 @@ struct complex		//定义存放复数的结构体类型
     float re;		//re成员用于存放复数的实部
     float im;		//im成员用于存放复数的虚部
 };
-```
 
-```c
-struct complex multiplier(struct xomplex cx, struct complex cy)
+
+
+struct complex multiplier(struct complex cx, struct complex cy)
 {
     struct complex cz;
-    cz.re=xc.re*cy.re-cx.im*cy.im;
+    cz.re=cx.re*cy.re-cx.im*cy.im;
     cz.im=cx.re*cy.im+cx.im*cy.re;
     return (cz);
 }
@@ -171,7 +171,7 @@ struct node *create()
             printf("Allocation failure\n");
             exit(0);
         }
-        strcpy(p->name, mane);
+        strcpy(p->name, name);
         printf("tel: ");
         gets(p->tel);
         p->next=NULL;
@@ -248,6 +248,77 @@ void main()
 
 
 * 插入操作——在结点之间插入一个新的结点，使链表中的结点个数增1
+
+  * 插入节点操作
+
+  1. 在表头插入结点
+
+  ```c
+  head = p0;
+  p0-&gt;next = p;2
+  ```
+
+  2. 在表中间插入结点
+
+  ```c
+  q->next = p0;
+  p0->next = p;
+  ```
+
+  3. 在表尾追加节点
+
+  ```c
+  p-next = p0;
+  p0->next = NULL;
+  ```
+
+  例: 在学生电话簿链表中插入一个学生的信息。要求将新的信息插入在指定学生信息之前。如果未找到指定学生，则追加在链表尾部。
+
+```c
+...
+    
+struct node *insert(struct node *head, struct node *p0, char *x)
+{
+    struct node *p, *q;
+    static struct node *h;
+    if(head == NULL)
+    {
+        head = p0;
+        p0->next = NULL;
+    }
+    else
+    {
+        p = head;
+        while(strcmp(x, p->name)!=0 && p-next!=NULL)
+        {
+            q=p;
+            p=q->next;
+        }
+        if(strcmp(x, p->name) == 0)
+        {
+            if(p == head)
+                head = p0;
+            else
+                q->next = p0;
+            p0->next = p;
+        }
+        else
+        {
+            p->next = p0;
+            p0->next = NULL;
+        }
+    }
+    h = head;
+    return h;
+}
+```
+
+
+
+
+
+
+
 * 删除操作——删除结点i，使链表中的结点个数减1
 
 在链表中，如果要删除第i个结点：

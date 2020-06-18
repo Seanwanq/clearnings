@@ -14,14 +14,16 @@ typedef struct _myTime
 typedef struct _hero
 {
     char *      name;
-    char         sex;
-    char     job[20];
+    char *       sex;
+    char *       job;
     int         life;
     double     speed;     //attack speed
-    char ability[20];     //special ability
+    char *   ability;     //special ability
     MyTime   pubTime;     //The publish time of the hero
 }   Hero;
 
+
+void Input();             //Dynamic input
 
 void Show();              //Show the details of the hero
 

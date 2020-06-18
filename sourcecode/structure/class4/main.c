@@ -9,6 +9,7 @@ int main()
 {
     //printf ("%s\n", heros[0].name);
 
+    Input();
     Show();
 
     return 0;

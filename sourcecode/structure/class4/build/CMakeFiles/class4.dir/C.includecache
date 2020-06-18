@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/github/clearnings/sourcecode/structure/class4/Hero.c
+Hero.h
+C:/github/clearnings/sourcecode/structure/class4/Hero.h
+
 C:/github/clearnings/sourcecode/structure/class4/Hero.h
 stdio.h
+-
+stdlib.h
 -
 
 C:/github/clearnings/sourcecode/structure/class4/main.c

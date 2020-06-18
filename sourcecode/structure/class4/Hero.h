@@ -2,6 +2,7 @@
 #define HERO_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct _myTime
 {
@@ -12,7 +13,7 @@ typedef struct _myTime
 
 typedef struct _hero
 {
-    char    name[50];
+    char *      name;
     char         sex;
     char     job[20];
     int         life;

@@ -10,10 +10,14 @@ void Show()
 {
     //How to know the size of structral array?
     int len = sizeof (heros) / sizeof (Hero);
+    //When the array elements use pointers, memory need to be assigned at first
+    printf ("Please input the name: ");
+    heros[0].name = (char *)malloc(50);
+    scanf  ("%s", heros[0].name);
     //printf ("the quantity of the structral array: %d\n", len);
     int i;
     for (i = 0; i < len; i++)
     {
-        printf ("%s\t%s\t%d-%d-%d\n", heros[i].name, heros[i].job, heros[i].pubTime.year, heros[i].pubTime.month, heros[i].pubTime.day);
+        printf ("%s\t%s\t%d-%d-%d\n", (heros + i) -> name, heros[i].job, heros[i].pubTime.year, heros[i].pubTime.month, heros[i].pubTime.day);
     }
 }

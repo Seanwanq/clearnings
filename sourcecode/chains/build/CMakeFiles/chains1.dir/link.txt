@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\chains1.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\chains1.dir/objects.a @CMakeFiles\chains1.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\chains1.dir/objects.a -Wl,--no-whole-archive  -o chains1.exe -Wl,--out-implib,libchains1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\chains1.dir\linklibs.rsp

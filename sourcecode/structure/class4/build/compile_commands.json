@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/github/clearnings/sourcecode/structure/class4/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\class4.dir\\Hero.c.obj   -c C:\\github\\clearnings\\sourcecode\\structure\\class4\\Hero.c",
+  "file": "C:/github/clearnings/sourcecode/structure/class4/Hero.c"
+},
+{
+  "directory": "C:/github/clearnings/sourcecode/structure/class4/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\class4.dir\\main.c.obj   -c C:\\github\\clearnings\\sourcecode\\structure\\class4\\main.c",
+  "file": "C:/github/clearnings/sourcecode/structure/class4/main.c"
+}
+]

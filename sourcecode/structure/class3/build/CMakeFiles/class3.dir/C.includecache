@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/github/clearnings/sourcecode/structure/class3/Hero.c
+Hero.h
+C:/github/clearnings/sourcecode/structure/class3/Hero.h
+
+C:/github/clearnings/sourcecode/structure/class3/Hero.h
+stdio.h
+-
+stdlib.h
+-
+

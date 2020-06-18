@@ -1,6 +1,8 @@
 #ifndef HERO_H
 #define HERO_H
 
+#include <stdio.h>
+
 typedef struct _myTime
 {
     int        year;
@@ -19,5 +21,7 @@ typedef struct _hero
     MyTime   pubTime;     //The publish time of the hero
 }   Hero;
 
+
+void Show();              //Show the details of the hero
 
 #endif

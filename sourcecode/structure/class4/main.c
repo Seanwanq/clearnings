@@ -3,11 +3,13 @@
 
 #include "Hero.h"
 
-extern Hero heros[100];
+//extern Hero heros[100];
 
 int main()
 {
-    printf ("%s\n", heros[0].name);
+    //printf ("%s\n", heros[0].name);
+
+    Show();
 
     return 0;
 }

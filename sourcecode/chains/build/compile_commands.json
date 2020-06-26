@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/github/clearnings/sourcecode/chains/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g   -o CMakeFiles\\chains1.dir\\main.c.obj   -c C:\\github\\clearnings\\sourcecode\\chains\\main.c",
-  "file": "C:/github/clearnings/sourcecode/chains/main.c"
+  "directory": "C:/GitHub/clearnings/sourcecode/chains/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\chains1.dir\\main.c.obj -c C:\\GitHub\\clearnings\\sourcecode\\chains\\main.c",
+  "file": "C:/GitHub/clearnings/sourcecode/chains/main.c"
 }
 ]

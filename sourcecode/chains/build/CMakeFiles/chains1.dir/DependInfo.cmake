@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/github/clearnings/sourcecode/chains/main.c" "C:/github/clearnings/sourcecode/chains/build/CMakeFiles/chains1.dir/main.c.obj"
+  "C:/GitHub/clearnings/sourcecode/chains/main.c" "C:/GitHub/clearnings/sourcecode/chains/build/CMakeFiles/chains1.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

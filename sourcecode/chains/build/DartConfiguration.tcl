@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/github/clearnings/sourcecode/chains
-BuildDirectory: C:/github/clearnings/sourcecode/chains/build
+SourceDirectory: C:/GitHub/clearnings/sourcecode/chains
+BuildDirectory: C:/GitHub/clearnings/sourcecode/chains/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/github/clearnings/sourcecode/chains"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/GitHub/clearnings/sourcecode/chains"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/MinGW/bin/g++.exe
-CompilerVersion: 9.2.0
+Compiler: C:/mingw64/bin/g++.exe
+CompilerVersion: 8.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

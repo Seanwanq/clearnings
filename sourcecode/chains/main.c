@@ -3,19 +3,19 @@
 #include <string.h>
 
 struct Node{
-    char data[50];              //Êı¾İÓò
-    struct Node * next;         //Ö¸ÕëÓò
+    char data[50];              //æ•°æ®åŸŸ
+    struct Node * next;         //æŒ‡é’ˆåŸŸ
 };
 
 struct Node * chain(int n);
-//´´½¨½áµã
+//åˆ›å»ºç»“ç‚¹
 struct Node * createNode(char * data);
-//´òÓ¡È«²¿Á´±í
+//æ‰“å°å…¨éƒ¨é“¾è¡¨
 void printList (struct Node * headNode);
-//É¾³ı½Úµã, Ê×µØÖ·, É¾³ıµÄÎ»Êı
+//åˆ é™¤èŠ‚ç‚¹, é¦–åœ°å€, åˆ é™¤çš„ä½æ•°
 struct Node * delNode(struct Node * headNode, int n);
-//²åÈë½áµã£¬²ÎÊı£º²åÈëÄÇ¸öÁ´±í£¬²åÈë½áµãµÄÊı¾İÊÇ¶àÉÙ
-//Á´±íÊ×µØÖ·, ²åÈëÊı¾İÎ»Êı, Êı¾İ
+//æ’å…¥ç»“ç‚¹ï¼Œå‚æ•°ï¼šæ’å…¥é‚£ä¸ªé“¾è¡¨ï¼Œæ’å…¥ç»“ç‚¹çš„æ•°æ®æ˜¯å¤šå°‘
+//é“¾è¡¨é¦–åœ°å€, æ’å…¥æ•°æ®ä½æ•°, æ•°æ®
 struct Node * insertNodeByHead(struct Node * headNode, int n, char * data);
 
 int main()
@@ -70,7 +70,7 @@ struct Node * chain(int n)
     return headNode;
 }
 
-//´´½¨½Úµã
+//åˆ›å»ºèŠ‚ç‚¹
 struct Node * createNode(char * data)
 {
     struct Node * newNode = (struct Node *)malloc(sizeof (struct Node));
@@ -79,7 +79,7 @@ struct Node * createNode(char * data)
     return newNode;
 }
 
-//´òÓ¡È«²¿Á´±í
+//æ‰“å°å…¨éƒ¨é“¾è¡¨
 void printList (struct Node * headNode)
 {
     struct Node * pMove = headNode;
@@ -91,8 +91,8 @@ void printList (struct Node * headNode)
     printf ("\n");
 }
 
-//²åÈë½áµã£¬²ÎÊı£º²åÈëÄÇ¸öÁ´±í£¬²åÈë½áµãµÄÊı¾İÊÇ¶àÉÙ
-//Á´±íÊ×µØÖ·, ²åÈëÊı¾İÎ»Êı, Êı¾İ
+//æ’å…¥ç»“ç‚¹ï¼Œå‚æ•°ï¼šæ’å…¥é‚£ä¸ªé“¾è¡¨ï¼Œæ’å…¥ç»“ç‚¹çš„æ•°æ®æ˜¯å¤šå°‘
+//é“¾è¡¨é¦–åœ°å€, æ’å…¥æ•°æ®ä½æ•°, æ•°æ®
 struct Node * insertNodeByHead(struct Node * headNode, int n, char * data)
 {
     struct Node *p, *q, *r;
@@ -123,7 +123,7 @@ struct Node * insertNodeByHead(struct Node * headNode, int n, char * data)
     }
 }
 
-//É¾³ı½Úµã, Ê×µØÖ·, É¾³ıµÄÎ»Êı
+//åˆ é™¤èŠ‚ç‚¹, é¦–åœ°å€, åˆ é™¤çš„ä½æ•°
 struct Node * delNode(struct Node * headNode, int n)
 {
     struct Node *p, *q;

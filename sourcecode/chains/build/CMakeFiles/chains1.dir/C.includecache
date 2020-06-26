@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/github/clearnings/sourcecode/chains/main.c
+C:/GitHub/clearnings/sourcecode/chains/main.c
 stdio.h
 -
 stdlib.h

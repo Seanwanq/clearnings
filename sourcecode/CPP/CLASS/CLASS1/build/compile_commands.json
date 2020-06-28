@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\CLASS1.dir\\LandOwnerV2.cpp.obj -c C:\\GitHub\\clearnings\\sourcecode\\CPP\\CLASS\\CLASS1\\LandOwnerV2.cpp",
+  "file": "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwnerV2.cpp"
+},
+{
+  "directory": "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/build",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\CLASS1.dir\\main.cpp.obj -c C:\\GitHub\\clearnings\\sourcecode\\CPP\\CLASS\\CLASS1\\main.cpp",
+  "file": "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/main.cpp"
+}
+]

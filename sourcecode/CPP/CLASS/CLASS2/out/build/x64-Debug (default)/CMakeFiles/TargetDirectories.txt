@@ -1,0 +1,5 @@
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS2/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS2/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS2/out/build/x64-Debug (default)/CLASS2/CMakeFiles/CLASS2.dir
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS2/out/build/x64-Debug (default)/CLASS2/CMakeFiles/edit_cache.dir
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS2/out/build/x64-Debug (default)/CLASS2/CMakeFiles/rebuild_cache.dir

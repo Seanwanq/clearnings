@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GitHub/clearnings/sourcecode/CPP/class1/main.cpp
+iostream
+-
+limits.h
+-
+cmath
+-
+iomanip
+-
+

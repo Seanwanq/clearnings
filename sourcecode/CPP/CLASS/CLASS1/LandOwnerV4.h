@@ -4,6 +4,7 @@
 #define LANDOWNERV4_H
 
 #include <iostream>
+#include <memory.h>
 
 using namespace std;
 
@@ -15,6 +16,8 @@ private:
 	int cards[20];
 
 public:
+
+	LandOwnerV4();
 
 	void GetName(string name)
 	{

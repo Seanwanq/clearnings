@@ -81,17 +81,44 @@ class LandOwner{
         void PlayCard();
 }
 ```
-> 学到15.3 -> 04:53
 
+## 类的成员函数
 
+### 函数声明
 
+```c++
+class 类名{
+    修饰符1:
+        变量1类型 变量1名称;
+        变量2类型 变量2名称;
+    修饰符2:
+        函数1返回类型 函数1名称();
+}；
+```
 
+```c++
+class LandOwner{
+    public:
+        string name;
+        long score;
+    private:
+        void ShowScore();
+};
+```
 
+## 函数定义
 
+```c++
+返回类型 类名::函数名(){
+    //函数操作
+}
+```
 
-
-
-
+```c++
+void LandOwner::ShowScore(){        // :: <- 作用域解析运算符
+    cout << score << endl;
+}
+```
 
 ## 构造函数
 
@@ -112,4 +139,37 @@ class LandOwner{
 * 一般构造(重载构造)
 * 拷贝构造
 
+```c++
+class LandOwner{
+    private:
+        int userld;
+    public:
+        LandOwner()
+        {
+            userld = 10000;
+        }
+}
+```
+
+## 带参构造
+
+```c++
+类名::构造(类型1 参数1, 类型2 参数2, ...){
+    //相关初始化代码
+}
+```
+
+```c++
+Student::Student(string name, string desc){
+    _name = name;
+    _desc = desc;
+}
+```
+
+```c++
+Student *stu = new Student("撒贝宁", "北大还行");
+stu->ShowInfo();
+```
+
+看到p98 0:0
 

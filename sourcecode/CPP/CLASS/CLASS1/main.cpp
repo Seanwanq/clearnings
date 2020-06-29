@@ -2,7 +2,8 @@
 //#include "LandOwnerV1.hpp"
 //#include "LandOwnerV2.h"
 //#include "LandOwnerV3.h"
-#include "LandOwnerV4.h"
+//#include "LandOwnerV4.h"
+#include "Student.h"
 
 
 
@@ -11,8 +12,8 @@ using namespace std;
 int main()
 {
     //数据类型 变量名
-    int num;
-    num = 0;
+//  int num;
+//  num = 0;
 
     /*
     LandOwnerV1 LandOwner1;     //声明了一个LandOwner1类型的变量
@@ -35,19 +36,24 @@ int main()
     landOwner3.ShowScore();
 */
 
-
+/*
     LandOwnerV4 landowner4;
     landowner4.GetName("DIO");
     landowner4.GetScore(120);
     landowner4.ShowName();
     landowner4.ShowScore();
     landowner4.TouchCards(20);
+*/ 
 
+    Student stu1;
+    Student stu2("Dio", "Soldier");
+    Student stu3(100);
+    Student stu4 = 50;
 
+    stu2.ShowInfo();
 
-
-
-
+    Student * stu5 = new Student("JOJO", "Golden Spitural");
+    stu5->ShowInfo();
 
 
     return 0;

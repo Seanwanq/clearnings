@@ -4,6 +4,9 @@
 CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj: ../LandOwnerV2.cpp
 CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj: ../LandOwnerV2.h
 
-CMakeFiles/CLASS1.dir/main.cpp.obj: ../LandOwnerV2.h
+CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj: ../LandOwnerV3.cpp
+CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj: ../LandOwnerV3.h
+
+CMakeFiles/CLASS1.dir/main.cpp.obj: ../LandOwnerV4.h
 CMakeFiles/CLASS1.dir/main.cpp.obj: ../main.cpp
 

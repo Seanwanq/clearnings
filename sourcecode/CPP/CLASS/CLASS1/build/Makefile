@@ -566,6 +566,33 @@ LandOwnerV2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.s
 .PHONY : LandOwnerV2.cpp.s
 
+LandOwnerV3.obj: LandOwnerV3.cpp.obj
+
+.PHONY : LandOwnerV3.obj
+
+# target to build an object file
+LandOwnerV3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj
+.PHONY : LandOwnerV3.cpp.obj
+
+LandOwnerV3.i: LandOwnerV3.cpp.i
+
+.PHONY : LandOwnerV3.i
+
+# target to preprocess a source file
+LandOwnerV3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.i
+.PHONY : LandOwnerV3.cpp.i
+
+LandOwnerV3.s: LandOwnerV3.cpp.s
+
+.PHONY : LandOwnerV3.s
+
+# target to generate assembly for a file
+LandOwnerV3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.s
+.PHONY : LandOwnerV3.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -636,6 +663,9 @@ help:
 	@echo ... LandOwnerV2.obj
 	@echo ... LandOwnerV2.i
 	@echo ... LandOwnerV2.s
+	@echo ... LandOwnerV3.obj
+	@echo ... LandOwnerV3.i
+	@echo ... LandOwnerV3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

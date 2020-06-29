@@ -1,6 +1,9 @@
 #include <iostream>
 //#include "LandOwnerV1.hpp"
-#include "LandOwnerV2.h"
+//#include "LandOwnerV2.h"
+//#include "LandOwnerV3.h"
+#include "LandOwnerV4.h"
+
 
 
 using namespace std;
@@ -18,9 +21,34 @@ int main()
     LandOwner1.TouchCard(100);
     */
 
+/*  
    LandOwnerV2 landOwner2;
    landOwner2.name = "Kit";
    landOwner2.TourchCard(20);
+*/
+
+/*
+    LandOwnerV3 landOwner3;
+    landOwner3.SetName("Dio");
+    landOwner3.GetName();
+    landOwner3.SetScore(-100);
+    landOwner3.ShowScore();
+*/
+
+
+    LandOwnerV4 landowner4;
+    landowner4.GetName("DIO");
+    landowner4.GetScore(120);
+    landowner4.ShowName();
+    landowner4.ShowScore();
+    landowner4.TouchCards(20);
+
+
+
+
+
+
+
 
     return 0;
 }

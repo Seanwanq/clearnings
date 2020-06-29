@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwnerV2.cpp" "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/build/CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj"
+  "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwnerV3.cpp" "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/build/CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj"
   "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/main.cpp" "C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/build/CMakeFiles/CLASS1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

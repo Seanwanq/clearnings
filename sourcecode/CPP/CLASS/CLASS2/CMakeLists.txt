@@ -1,9 +1,11 @@
-﻿# CMakeList.txt : Top-level CMake project file, do global configuration
-# and include sub-projects here.
-#
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required(VERSION 3.0.0)
+project(CLASS2 VERSION 0.1.0)
 
-project ("CLASS2")
+include(CTest)
+enable_testing()
 
-# Include sub-projects.
-add_subdirectory ("CLASS2")
+add_executable(CLASS2 main.cpp)
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

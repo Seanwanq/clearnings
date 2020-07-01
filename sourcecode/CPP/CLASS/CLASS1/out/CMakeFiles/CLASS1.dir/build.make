@@ -76,9 +76,22 @@ include CMakeFiles/CLASS1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLASS1.dir/flags.make
 
+CMakeFiles/CLASS1.dir/LandOwner.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
+CMakeFiles/CLASS1.dir/LandOwner.cpp.obj: ../LandOwner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLASS1.dir/LandOwner.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\LandOwner.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwner.cpp
+
+CMakeFiles/CLASS1.dir/LandOwner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLASS1.dir/LandOwner.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwner.cpp > CMakeFiles\CLASS1.dir\LandOwner.cpp.i
+
+CMakeFiles/CLASS1.dir/LandOwner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLASS1.dir/LandOwner.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwner.cpp -o CMakeFiles\CLASS1.dir\LandOwner.cpp.s
+
 CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
 CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj: ../LandOwnerV2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\LandOwnerV2.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwnerV2.cpp
 
 CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.i: cmake_force
@@ -91,7 +104,7 @@ CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.s: cmake_force
 
 CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
 CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj: ../LandOwnerV3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\LandOwnerV3.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwnerV3.cpp
 
 CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.s: cmake_force
 
 CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
 CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj: ../LandOwnerV4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\LandOwnerV4.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\LandOwnerV4.cpp
 
 CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.s: cmake_force
 
 CMakeFiles/CLASS1.dir/Student.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
 CMakeFiles/CLASS1.dir/Student.cpp.obj: ../Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CLASS1.dir/Student.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLASS1.dir/Student.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\Student.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\Student.cpp
 
 CMakeFiles/CLASS1.dir/Student.cpp.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/CLASS1.dir/Student.cpp.s: cmake_force
 
 CMakeFiles/CLASS1.dir/main.cpp.obj: CMakeFiles/CLASS1.dir/flags.make
 CMakeFiles/CLASS1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CLASS1.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CLASS1.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLASS1.dir\main.cpp.obj -c C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\main.cpp
 
 CMakeFiles/CLASS1.dir/main.cpp.i: cmake_force
@@ -143,6 +156,7 @@ CMakeFiles/CLASS1.dir/main.cpp.s: cmake_force
 
 # Object files for target CLASS1
 CLASS1_OBJECTS = \
+"CMakeFiles/CLASS1.dir/LandOwner.cpp.obj" \
 "CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj" \
 "CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj" \
 "CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj" \
@@ -152,6 +166,7 @@ CLASS1_OBJECTS = \
 # External object files for target CLASS1
 CLASS1_EXTERNAL_OBJECTS =
 
+CLASS1.exe: CMakeFiles/CLASS1.dir/LandOwner.cpp.obj
 CLASS1.exe: CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj
 CLASS1.exe: CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj
 CLASS1.exe: CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj
@@ -161,7 +176,7 @@ CLASS1.exe: CMakeFiles/CLASS1.dir/build.make
 CLASS1.exe: CMakeFiles/CLASS1.dir/linklibs.rsp
 CLASS1.exe: CMakeFiles/CLASS1.dir/objects1.rsp
 CLASS1.exe: CMakeFiles/CLASS1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CLASS1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHub\clearnings\sourcecode\CPP\CLASS\CLASS1\out\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CLASS1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CLASS1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

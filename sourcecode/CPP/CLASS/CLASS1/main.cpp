@@ -3,7 +3,9 @@
 //#include "LandOwnerV2.h"
 //#include "LandOwnerV3.h"
 //#include "LandOwnerV4.h"
-#include "Student.h"
+//#include "Student.h"
+
+#include "LandOwner.h"
 
 
 
@@ -45,16 +47,33 @@ int main()
     landowner4.TouchCards(20);
 */ 
 
-    Student stu1;
+/*
+    Student stu1;       //在栈内存里直接分配空间 不建议 容易内存溢出
     Student stu2("Dio", "Soldier");
-    Student stu3(100);
-    Student stu4 = 50;
+    //Student stu3(100);
+    //Student stu4 = 50;
 
     stu2.ShowInfo();
 
-    Student * stu5 = new Student("JOJO", "Golden Spitural");
+    Student * stu5 = new Student("JOJO", "Golden Spitural");//堆内存不会被自动释放
     stu5->ShowInfo();
 
+    //当对象使用完毕后,记得delete,释放内存！
+    delete stu5;
+*/
+
+    LandOwner* ptr_landowner1 = new LandOwner();
+    LandOwner* ptr_landowner2 = new LandOwner("Dio");
+    LandOwner* ptr_landowner3 = new LandOwner("JOJO", "male", 10000, 10000);
+
+    ptr_landowner1->ShowInfo();
+    ptr_landowner2->ShowInfo();
+    ptr_landowner3->ShowInfo();
+
+
+    delete ptr_landowner1;
+    delete ptr_landowner2;
+    delete ptr_landowner3;
 
     return 0;
 }

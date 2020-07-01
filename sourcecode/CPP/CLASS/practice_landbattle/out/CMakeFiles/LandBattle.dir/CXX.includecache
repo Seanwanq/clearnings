@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
+vector
+-
+iostream
+-
+iterator
+-
+algorithm
+-
+
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp
+iostream
+-
+LandOwner.h
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
+

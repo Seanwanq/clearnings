@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/Student.h
-iostream
--
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwner.cpp
+LandOwner.h
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwner.h
 
-C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/main.cpp
+C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/LandOwner.h
 iostream
 -
-Student.h
-C:/GitHub/clearnings/sourcecode/CPP/CLASS/CLASS1/Student.h
 

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\CLASS1.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\CLASS1.dir/objects.a @CMakeFiles\CLASS1.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CLASS1.dir/objects.a -Wl,--no-whole-archive -o CLASS1.exe -Wl,--out-implib,libCLASS1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CLASS1.dir\linklibs.rsp

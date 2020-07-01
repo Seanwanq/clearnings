@@ -15,6 +15,7 @@ private:
 public:
     //构造函数的重载规则和普通函数重载相同
     Student();
+    ~Student();
     Student(string, string);      //带参构造
     Student(int);
 

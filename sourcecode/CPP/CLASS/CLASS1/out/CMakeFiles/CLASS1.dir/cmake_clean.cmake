@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CLASS1.exe"
   "CLASS1.exe.manifest"
   "CLASS1.pdb"
+  "CMakeFiles/CLASS1.dir/LandOwner.cpp.obj"
   "CMakeFiles/CLASS1.dir/LandOwnerV2.cpp.obj"
   "CMakeFiles/CLASS1.dir/LandOwnerV3.cpp.obj"
   "CMakeFiles/CLASS1.dir/LandOwnerV4.cpp.obj"

@@ -539,6 +539,33 @@ ContinuousCoverage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
+LandOwner.obj: LandOwner.cpp.obj
+
+.PHONY : LandOwner.obj
+
+# target to build an object file
+LandOwner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwner.cpp.obj
+.PHONY : LandOwner.cpp.obj
+
+LandOwner.i: LandOwner.cpp.i
+
+.PHONY : LandOwner.i
+
+# target to preprocess a source file
+LandOwner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwner.cpp.i
+.PHONY : LandOwner.cpp.i
+
+LandOwner.s: LandOwner.cpp.s
+
+.PHONY : LandOwner.s
+
+# target to generate assembly for a file
+LandOwner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CLASS1.dir\build.make CMakeFiles/CLASS1.dir/LandOwner.cpp.s
+.PHONY : LandOwner.cpp.s
+
 LandOwnerV2.obj: LandOwnerV2.cpp.obj
 
 .PHONY : LandOwnerV2.obj
@@ -714,6 +741,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... CLASS1
+	@echo ... LandOwner.obj
+	@echo ... LandOwner.i
+	@echo ... LandOwner.s
 	@echo ... LandOwnerV2.obj
 	@echo ... LandOwnerV2.i
 	@echo ... LandOwnerV2.s

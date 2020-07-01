@@ -31,3 +31,8 @@ void Student::ShowInfo()
 {
     cout << _desc << "\t" << _name << endl;
 }
+
+Student::~Student()
+{
+    cout << _name << "\treleased" << endl;//被自动释放的只有栈内存的数据
+}

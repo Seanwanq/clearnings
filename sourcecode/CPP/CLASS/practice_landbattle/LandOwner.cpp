@@ -153,16 +153,51 @@ void LandOwner::ShowCards(const vector<int>& cards)
 	cout << endl; */
 
 	//for区间遍历 c++11特性
-/*	for (auto card:cards)
+	for (auto card:cards)
 	{
-		cout << card << ", ";
+		cout << card << ": " << getColor(card) << "--" << getValue(card) << ", ";
 	}
-	cout << endl; */
+	cout << endl; 
 
 	//使用算法的方式将容器(vector)的内容复制到cout绑定的迭代器中
 	//需要导入<iterator>和<algorithm>
-	copy(cards.cbegin(), cards.cend(), ostream_iterator<int>(cout, ", "));
-	cout << endl;
+	//copy(cards.cbegin(), cards.cend(), ostream_iterator<int>(cout, ", "));
+	//cout << endl;
+}
+
+//获得牌的花色
+string LandOwner::getColor(int card)		//注意这里，card不是下标
+{
+	if (card == 53)
+	{
+		return "Black Joker";
+	}
+	else if (card ==54)
+	{
+		return "Red Joker";
+	}
+	string colors[] = {
+		"Spade", "Heart", "Diamond", "Club"
+	};
+	return colors[(card - 1) / 13];
+}
+
+//获得牌面
+string LandOwner::getValue(int card)
+{
+	if (card == 53)
+	{
+		return "Black Joker";
+	}
+	else if (card == 54)
+	{
+		return "Red Joker";
+	}
+	string values[] = {
+		"A", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+		"J", "Q", "K"
+	};
+	return values[(card - 1) / 13];
 }
 
 

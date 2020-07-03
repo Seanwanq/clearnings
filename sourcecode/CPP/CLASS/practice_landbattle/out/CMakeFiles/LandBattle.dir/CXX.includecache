@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp
+D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp
 LandOwner.h
-/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
+D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
 
-/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
+D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
 vector
 -
 iostream
@@ -23,4 +23,10 @@ cstdlib
 -
 ctime
 -
+
+D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp
+iostream
+-
+LandOwner.h
+D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.h
 

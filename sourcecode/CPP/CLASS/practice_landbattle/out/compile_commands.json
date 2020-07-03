@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
-  "command": "/bin/clang++-10    -g   -o CMakeFiles/LandBattle.dir/LandOwner.cpp.o -c /home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp",
-  "file": "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp"
+  "directory": "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\LandBattle.dir\\LandOwner.cpp.obj -c D:\\GitHub\\clearnings\\sourcecode\\CPP\\CLASS\\practice_landbattle\\LandOwner.cpp",
+  "file": "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp"
 },
 {
-  "directory": "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
-  "command": "/bin/clang++-10    -g   -o CMakeFiles/LandBattle.dir/main.cpp.o -c /home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp",
-  "file": "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp"
+  "directory": "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
+  "command": "C:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\LandBattle.dir\\main.cpp.obj -c D:\\GitHub\\clearnings\\sourcecode\\CPP\\CLASS\\practice_landbattle\\main.cpp",
+  "file": "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp"
 }
 ]

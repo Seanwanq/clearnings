@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LandBattle.dir/LandOwner.cpp.o"
-  "CMakeFiles/LandBattle.dir/main.cpp.o"
-  "LandBattle"
+  "CMakeFiles/LandBattle.dir/LandOwner.cpp.obj"
+  "CMakeFiles/LandBattle.dir/main.cpp.obj"
+  "LandBattle.exe"
+  "LandBattle.exe.manifest"
   "LandBattle.pdb"
+  "libLandBattle.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

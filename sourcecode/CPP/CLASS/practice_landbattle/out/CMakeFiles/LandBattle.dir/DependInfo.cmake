@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp" "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out/CMakeFiles/LandBattle.dir/LandOwner.cpp.o"
-  "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp" "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out/CMakeFiles/LandBattle.dir/main.cpp.o"
+  "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp" "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out/CMakeFiles/LandBattle.dir/LandOwner.cpp.obj"
+  "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp" "D:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out/CMakeFiles/LandBattle.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

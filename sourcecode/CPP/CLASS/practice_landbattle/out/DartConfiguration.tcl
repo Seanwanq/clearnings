@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle
-BuildDirectory: C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out
+SourceDirectory: /home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle
+BuildDirectory: /home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-6P1QIPU
+Site: sean-TM1707
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-mingw32-make
+BuildName: Linux-clang++-10
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "/usr/bin/cmake" "/home/sean/Documents/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle"
+MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -44,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: C:/Program Files/Git/cmd/git.exe
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -62,15 +62,13 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/mingw64/bin/g++.exe
-CompilerVersion: 8.1.0
+Compiler: /bin/clang++-10
+CompilerVersion: 10.0.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
-DrMemoryCommand: 
-DrMemoryCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
@@ -78,7 +76,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/mingw64/bin/gcov.exe
+CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
 
 # Cluster commands

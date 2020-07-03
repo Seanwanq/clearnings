@@ -15,6 +15,9 @@ int main()
     ptr_landowner3->ShowInfo();
 
 
+    ptr_landowner2->TouchCard(2);
+
+
     delete ptr_landowner1;
     delete ptr_landowner2;
     delete ptr_landowner3;

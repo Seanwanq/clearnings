@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\LandBattle.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\LandBattle.dir/objects.a @CMakeFiles\LandBattle.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LandBattle.dir/objects.a -Wl,--no-whole-archive -o LandBattle.exe -Wl,--out-implib,libLandBattle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LandBattle.dir\linklibs.rsp
+/bin/clang++-10  -g  -rdynamic CMakeFiles/LandBattle.dir/LandOwner.cpp.o CMakeFiles/LandBattle.dir/main.cpp.o  -o LandBattle 

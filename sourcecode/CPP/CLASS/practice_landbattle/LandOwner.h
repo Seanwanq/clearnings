@@ -5,6 +5,8 @@
 #include <iostream>
 #include <iterator>
 #include <algorithm>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 class LandOwner
@@ -19,7 +21,9 @@ private:
     vector<int> surplusCards;   //摸牌后剩余的牌
     vector<int> currentCards;   //当前玩家的手牌数组
 
+    bool isContains(int);       //剩余牌中是否包含cardNum这个牌面   <- 方法声明可能有问题
 
+    void deleteCard(vector<int>&, int);     //删除集合中的数字      <- 方法声明可能有问题
 
 public:
     LandOwner();

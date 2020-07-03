@@ -61,7 +61,69 @@ void LandOwner::InitCards()
 //摸牌
 void LandOwner::TouchCard(int cardcount)
 {
+	//随机生成一张剩余牌集合中有的牌，添加到currentCards集合中
+	//从surplusCards中删除这张牌
+	srand(time(NULL));		//时间种子
+	for (int i = 0; i < cardcount; i++)
+	{
+		int randIndex = rand() % 54;		//1-54之间的随机数字
+		//判断：随机生成的这张牌是否在剩余牌集合中
+		if(isContains(packCards[randIndex]))
+		{
+			currentCards.push_back(packCards[randIndex]);	//将摸得牌放入当前手牌数组
+			//在剩余牌集合中删除这张牌
+			deleteCard(surplusCards, packCards[randIndex]);
+		}
+		else
+		{
+			i--;	//重新摸牌
+		}
+		
+	}
+	cout << "<Landowner Touch The Cards> - current cards: " << endl;
+	ShowCards(currentCards);
+	cout << "<After Landowner's Touch> - left cards: " << endl;
+	ShowCards(surplusCards);
+}
 
+bool LandOwner::isContains(int cardNum)		//TODO 	在声明方法时可能有问题
+{
+	/*//使用算法查找
+	vector<int>::iterator iter = find(surplusCards.begin(), surplusCards.end(), cardNum);
+	if (iter == surplusCards.end())
+	{
+		return false;
+	}
+	return true;	*/
+
+	vector<int>::iterator iter = find(surplusCards.begin(),surplusCards.end(), cardNum);
+	return iter != surplusCards.end();
+}
+
+void LandOwner::deleteCard(vector<int>& cardVec, int card)
+{
+	//普通做法
+/*  for (auto iter = cardVec.begin(); iter != cardVec.end(); )
+	{
+		if (*iter == card)
+		{
+			//如果找到就删除元素
+			iter = cardVec.erase(card);	//这里的返回值指向已删除元素的下一元素
+		}
+		else
+		{
+			++iter;	//继续判断下一个元素是否相同
+		}
+		
+	}
+*/
+
+	//使用算法删除
+	auto iter = find(cardVec.begin(), cardVec.end(), card);
+	if (iter != cardVec.end())
+	{
+		cardVec.erase(iter);
+	}
 }
 
 //显示集合中的牌面
@@ -102,6 +164,7 @@ void LandOwner::ShowCards(const vector<int>& cards)
 	copy(cards.cbegin(), cards.cend(), ostream_iterator<int>(cout, ", "));
 	cout << endl;
 }
+
 
 LandOwner::~LandOwner()
 {

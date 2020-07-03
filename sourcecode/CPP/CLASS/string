@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/LandBattle.dir/LandOwner.cpp.o -c /home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp",
+  "file": "/home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/LandOwner.cpp"
+},
+{
+  "directory": "/home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/out",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/LandBattle.dir/main.cpp.o -c /home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp",
+  "file": "/home/sean/文档/GitHub/clearnings/sourcecode/CPP/CLASS/practice_landbattle/main.cpp"
+}
+]
